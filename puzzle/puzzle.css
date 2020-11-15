@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    border: 0;
+    font-size: 20px;
+    
+}
+.outer-wrapper{
+    width: 800px;
+    margin: 20px auto;
+    vertical-align: center;
+    
+}
+#game{
+    width: 606px;
+    height: 600px;
+    background-color: turquoise;
+    float: left;
+    overflow: hidden;
+}
+li{
+    list-style-type: none;
+    height: 200px;
+    width: 200px;
+    float: left;
+    background-color: #aaffcc;
+    border: black solid 1px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-size: 70px;
+}
+li:hover{
+    color: wheat;
+}
+#controller{
+    
+    width: 194px;
+    float: right;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 250px;
+}
+#controller .btn{
+    margin-top: 10px;
+    background-color: skyblue;
+    width: 70px;
+    border-radius: 5px;
+}

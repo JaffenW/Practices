@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="puzzle.css">
+    <title>拼图小游戏</title>
+</head>
+<body>
+    <div class="outer-wrapper">
+        <ul id="game">
+            <li id="d1" onclick="move(1)">1</li>
+            <li id="d2" onclick="move(2)">2</li>
+            <li id="d4" onclick="move(3)">4</li>
+            <li id="d5" onclick="move(4)">5</li>
+            <li id="d3" onclick="move(5)">3</li>
+            <li id="d6" onclick="move(6)">6</li>
+            <li id="d7" onclick="move(7)">7</li>
+            <li id="d8" onclick="move(8)">8</li>
+            <li id="d9" onclick="move(9)">9</li>
+        </ul>
+        <div id="controller">
+            <p>
+                <i>总时间：</i>
+                <i id="alltime"></i>
+            </p>
+            <p>
+                <button id="start" class="btn" onclick="start()">开始</button><br>
+                <button id="pause" class="btn" onclick="pause()">暂停</button>
+            </p>
+        </div>
+    </div>
+    <script src="puzzle.js"></script>
+</body>
+</html>
