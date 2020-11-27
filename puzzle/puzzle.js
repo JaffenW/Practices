@@ -27,6 +27,7 @@ function paint(){
         if(park[i] == 0){
             lis[i-1].innerHTML = "";
             lis[i-1].style.backgroundColor = "wheat";
+            
         }else{
             lis[i-1].innerHTML = park[i];
             lis[i-1].style.backgroundColor = "#aaffcc";

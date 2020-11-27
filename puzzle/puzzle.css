@@ -13,12 +13,11 @@
 }
 #game{
     width: 606px;
-    height: 600px;
     background-color: turquoise;
     float: left;
     overflow: hidden;
 }
-li{
+#game li{
     list-style-type: none;
     height: 200px;
     width: 200px;
@@ -30,7 +29,10 @@ li{
     color: white;
     font-size: 70px;
 }
-li:hover{
+#game li:last-child{
+    margin-top: 200px;
+}
+#game li:hover{
     color: wheat;
 }
 #controller{
